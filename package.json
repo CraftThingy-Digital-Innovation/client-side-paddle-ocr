@@ -1,0 +1,16 @@
+{
+  "name": "client-side-paddle-ocr",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "ppu-paddle-ocr": "^1.3.0",
+    "onnxruntime-web": "^1.21.0",
+    "path-browserify": "^1.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
