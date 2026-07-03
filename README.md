@@ -287,3 +287,24 @@ async function scanPdfPage(pdfUrl, pageNum) {
   console.log(`Page ${pageNum} parsed text:`, result.text);
 }
 ```
+
+---
+
+## Asal Usul & Kredit / Origins & Credits
+
+### Bahasa Indonesia
+Proyek ini dikembangkan oleh **CraftThingy Digital Innovation (Alif Nur Hidayat)**. Proyek ini dibangun di atas fondasi inovasi open-source berikut:
+1.  **Baidu PaddleOCR**: Model deteksi & pengenalan teks kelas dunia yang menjadi inti dari sistem OCR ini.
+2.  **ppu-paddle-ocr**: Pustaka Node.js yang kami porting, shimming, dan bundle agar dapat berjalan di web browser secara penuh.
+3.  **ONNX Runtime Web (Microsoft)**: Engine eksekusi WebAssembly yang menjalankan model neural network `.onnx` di browser.
+4.  **OpenCV.js**: Pustaka pengolahan citra komputer yang menangani transformasi geometris dan cropping karakter.
+5.  **PDF.js (Mozilla)**: Pustaka rendering dokumen PDF yang memproses halaman dokumen menjadi frame canvas.
+
+### English
+This project is developed by **CraftThingy Digital Innovation (Alif Nur Hidayat)**. It is built upon the following open-source projects and innovations:
+1.  **Baidu PaddleOCR**: The world-class OCR system providing the core deep learning models for text detection and recognition.
+2.  **ppu-paddle-ocr**: The server-side Node.js package which we port, shim, and bundle to run inside browser clients.
+3.  **ONNX Runtime Web (Microsoft)**: The WebAssembly execution runtime that powers the `.onnx` model inference in browser clients.
+4.  **OpenCV.js**: The computer vision engine handling character cropping and geometry conversions.
+5.  **PDF.js (Mozilla)**: The document rendering library enabling multi-page PDF scanning inside the browser canvas.
+
